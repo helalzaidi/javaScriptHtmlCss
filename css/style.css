@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  *{
     margin: 0;
     padding: 0;
@@ -62,4 +63,55 @@ slider img{
 }
 #next{
     margin-left:-71px;
+=======
+body{
+    background: orangered;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+#container{
+    width: 60%;
+    background: blue;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 25px;
+}
+header{
+    text-align: center;
+    border-bottom: white dashed 1px;
+}
+header h1{
+    margin: 0;
+    padding: 0;
+}
+header p{
+    padding: 0;
+    margin-top: 5px;
+    color: black;
+}
+section{
+    min-height: 400;
+}
+footer{
+    text-align: center;
+}
+input[type='submit']{
+    background: orangered;
+    border: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+#results h3{
+    background: orangered;
+    padding: 10px;
+    margin: 10px 0;
+
+}
+#results span{
+    color:black;
+    font-weight: bold;
+>>>>>>> 79c6238f03845f17afa92056c28bb3e5bff117ec
 }
